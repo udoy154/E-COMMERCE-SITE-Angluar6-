@@ -1,0 +1,31 @@
+
+
+
+......................................step: 1..................................
+
+#1  Open the server site first on visual studio
+
+#2  in appsettings.json change the connection strings 
+
+#3  then open the package manager console 
+  
+#4  the project file already have migration folder for update the database enter the following command on ackage manager console 
+   
+    update-database -Context DataDbContext
+    update-database -Context MyAppIdentityDbContext
+
+#5  Now run the Program
+    
+......................................step: 2.................................
+
+#1 then Open client site folder on visual code
+
+#2 Add nodemodule folder (for install opern new terminal and enter the command: npm i) 
+
+#3 Run the program on any broswer
+
+#4 For Loing as amdin Provide this userName & password 
+
+    User Name: admin@test.com
+    Password: @Test123
+
